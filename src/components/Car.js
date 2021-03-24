@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
       <div className={carClasses.root}>
           <Container> 
         <Paper elevation={3} display="flex" flex>
-          <h1>{carInfo.Name}</h1>
+          <h1>{car.Name}</h1>
           <div className={Chip}>
             <Chip label={`MPG: ${carInfo.Miles_per_Gallon}`} />
             <Chip label={`Cylinders: ${carInfo.Cylinders}`} />
